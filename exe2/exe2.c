@@ -31,8 +31,11 @@ int main(){
 
 void convertHora(hora, minuto){
     if(hora > 12){
-        hora = hora - 12;
+        hora -= 12;
+        printf("\nHora convertida: %d:%d AM", hora, minuto);
     }
-
-    printf("\nHora convertida: %d:%d", hora, minuto);
+    else{
+        hora += 12;
+        printf("\nHora convertida: %d:%d PM", hora, minuto);
+    }
 }
