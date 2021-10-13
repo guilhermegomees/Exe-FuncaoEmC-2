@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 /*
     Faça um programa que converta da notação de 24 horas para a notação de 12 horas. Por

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 /*
     Faça um programa que use a função valorPagamento para determinar o 

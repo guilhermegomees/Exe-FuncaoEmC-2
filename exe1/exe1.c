@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 /*
     Faça um programa com uma função chamada somaImposto. A função 
