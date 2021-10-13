@@ -9,7 +9,7 @@
     custo para incluir o imposto sobre vendas.
 */
 
-void somaImporto(taxaImposto, custo);
+void somaImposto(taxaImposto, custo);
 
 int main(){
     float taxaImposto, custo;
@@ -18,12 +18,12 @@ int main(){
     scanf("%f", &taxaImposto);
     printf("Custo: ");
     scanf("%f", &custo);
-    somaImporto(taxaImposto, custo);
+    somaImposto(taxaImposto, custo);
 
     return 0;
 }
 
-void somaImporto(taxaImposto, custo){
+void somaImposto(taxaImposto, custo){
     float resultadoImposto = custo + (custo * taxaImposto / 100);
     printf("\nResultado: %.2f", resultadoImposto);
 }
